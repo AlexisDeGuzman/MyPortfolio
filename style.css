@@ -33,7 +33,7 @@ body {
 	color: var(--text-color);
 }
 
-section { /*hello its me*/
+section {
 	min-height: 100vh;
 	padding: 10rem 9% 2rem;
 }
@@ -45,10 +45,8 @@ section { /*hello its me*/
 	width: 100%;
 	padding: 2rem 9%;
 	background: var(--bg-color);
-	display: flex; 
-	/*pinagtabi yung portfolio at nav*/
-	justify-content: space-between; 
-	/*nagkaspace sa gitna ng header at nav*/
+	display: flex;
+	justify-content: space-between;
 	align-items: center;
 	z-index: 100;
 }
@@ -247,6 +245,7 @@ span {
 }
 
 
+/*portfolio styles*/
 
 .portfolio {
 	background: var(--second-bg-color);
@@ -259,7 +258,7 @@ span {
 .portfolio-container {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);  /*it creates three columns of equal width*/
-	align-items: center;
+	/*align-items: center;*/
 	gap: 2.5rem;
 }
 
